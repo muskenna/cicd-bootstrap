@@ -14,3 +14,9 @@ export KUBE_PS1_DIVIDER=" --> "
 PS1='\[\e[36m\]\u\[\e[0m\]@\[\e[33m\]\h\[\e[0m\] \W $(kube_ps1)\$' 
 ```
 <https://github.com/jonmosco/kube-ps1>
+
+## awsume
+Awsume is a convenient way to manage session tokens and assume role credentials.
+With it I do not need to add the `--profile` and `--region` to some of my bash scripts.
+<https://awsu.me/>
+
